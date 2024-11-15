@@ -50,16 +50,13 @@ project-deployment.yml: Deployment resource for the application.
 project-service.yml: Service resource to expose the application via LoadBalancer.
 🛠️ How It Works
 Continuous Integration (CI):
-
 Jenkins polls the Git repository for changes.
 Maven builds the Java application.
 Docker image is built and pushed to Docker Hub.
 Continuous Deployment (CD):
-
 Jenkins triggers an Ansible playbook to deploy the application to Kubernetes.
 Kubernetes manages the application pods and services.
 Testing:
-
 Access the application via the LoadBalancer DNS provided by Kubernetes.
 ✅ How to Run
 Prerequisites
@@ -83,7 +80,7 @@ Copy code
 kubectl get svc
 Access the application in your browser using the LoadBalancer DNS:
 
-arduino
+bash
 Copy code
 http://<LoadBalancer-DNS>:8080/register/
 
