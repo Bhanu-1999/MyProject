@@ -109,3 +109,5 @@ bash
 Copy code
 http://<LoadBalancer-DNS>:8080/register/
 
+[CICD using terr,jenk,ansi,k8s,docker,maven.pdf](https://github.com/user-attachments/files/17779664/CICD.using.terr.jenk.ansi.k8s.docker.maven.pdf)
+
